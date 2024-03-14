@@ -1,0 +1,307 @@
+/* Le code ci-dessous correspond à la version responsive uniquement */
+
+/****** Media queries ***********/
+/* Medium devices (tablets, less/equal than 1024px) */
+@media (max-width: 1024px) {
+
+    /** formulaire recherche **/
+    
+    .formulaire-recherche {
+        height: 20.125em;
+    }
+    
+    .filtres {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1.25em;
+        margin-bottom: 5px;
+        margin-top:5px;
+    }
+    
+    
+    /** hébergements cards **/
+    
+        .hebergements-and-populaires {
+            flex-direction: column;
+        }
+    
+        .hebergements {
+            width: 100%;
+        }
+    
+    /** populaires cards **/
+    
+        .populaires {
+            width: 100%;
+            height: 15.75em;
+            margin-top: 3.125em;
+        }
+    
+        .populaires-cards {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+    
+        .populaires-cards a {
+            width: 31.8%;
+            height: 16.875em;
+    
+        }
+    
+        .populaires-cards .card {
+            margin-bottom: 0em;
+        }
+    
+        .populaires-cards .card-subtitle {
+            font-size: 0.8125em;
+        }
+    
+    /**activités cards **/
+    
+        .activites-cards img {
+        height: 12.5em;
+        }
+    
+        .activites-cards .card {
+            height: 16.875em;
+        }
+    }
+    
+    /* Small devices (phones, less than 768px) */
+    @media (max-width: 767.98px) {
+    
+    /** Marges globales **/
+    
+        .main-container {
+            max-width: 23.4375em;
+            min-width: 20em;
+            padding: 0em 0em;
+            align-items: center;
+        }
+    
+    /***** Header *****/
+    
+        .logoetheader {
+        flex-direction: column;
+        height: 7.1875em;
+        }
+    
+        .logo {
+        display: flex;
+        justify-content: center;
+        }
+    
+        .bordure-nav{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        height: 2.25em;
+        border-bottom: solid 0.125em #F2F2F2;
+        }
+    
+        .bordure-nav2:hover {
+        border-top: 0em;
+        position: relative; top: 0em;
+        }
+    
+        .bordure-nav:hover {
+        border-bottom: solid 0.125em #0065FC;
+        }
+    
+    /***** Main *****/
+    
+    main {
+        align-items: center;
+    }
+    
+    /*** formulaire recherche ***/
+    
+        .formulaire-recherche {
+            padding: 0em 1.25em;
+            min-height: 27em;
+            gap: 10%;
+        }
+    
+    /* titre et para */
+    
+        .titre-para {
+            height: 78px;
+            padding-bottom: 2%;
+        }
+    
+    /* barre de recherche */
+    
+        .barre-de-recherche {
+            width: 95%;
+            height: 4.9375em;
+        }
+    
+        input {
+            width: 100%;
+        }
+    
+        .bouton-recherche {
+            width: 3.0625em;
+            height: 3.0625em;
+            border-radius: 0.9375em;
+        }
+    
+        .bouton-recherche p {
+            display: none;
+        }
+    
+        .bouton-recherche i {
+            display: initial;
+            color: white;
+        }
+    
+    /* filtres */
+    
+        .filtres {
+            height: 10.0625em;
+        }
+    
+        .boutons-filtre {
+            flex-wrap: wrap;
+            gap: 0.0625em;
+        }
+        
+        .economique, .familial, .romantique, .pepites {
+            width: 46%;
+            box-sizing: border-box;
+            font-size: 0.875em;
+            justify-content: flex-start;
+            gap: 5%;
+            padding: 0% 3%;
+        }
+    
+        .boutons-filtre i {
+            padding-left: 4%;
+        }
+    
+    /* Bulle Info */
+    
+        .info {
+            height: 2.375em;
+            flex-wrap: nowrap;
+            margin-top:10px;
+            margin-bottom:40px;
+        }
+    
+    /*** Hebergements And Populaires ***/
+    
+    .hebergements-and-populaires {
+        flex-direction: column-reverse;
+        justify-content: space-between;
+    }
+    
+    .hebergements-and-populaires section {
+        border-radius: 0;
+    }
+    
+    /** Populaires **/
+    
+    .populaires {
+        width: 100%;
+        height: 35.5625em;
+        margin: 0;
+        padding: 1.875em 1.25em;
+        gap: 0.9375em;
+        box-sizing: border-box;
+    }
+    
+    .populaires-cards {
+        flex-direction: column;
+        height: 9.125em;
+        gap: 0.9375em;
+    }
+    
+    .populaires-cards a {
+        width: 100%;
+    }
+    
+    
+    .populaires-cards .card {
+        width: 100%;
+        height: 9.125em;
+        box-sizing: border-box;
+    }
+    
+    .populaires-cards img {
+        width: 35%;
+        height: 100%;
+        border-radius: 1.25em 0em 0em 1.25em;
+    }
+    
+    /** Hébergements **/
+    
+    .hebergements-and-populaires .hebergements {
+        background-color: white;
+        padding: 1.25em;
+        width: 100%;
+        height: 89.71875em;
+        gap: 0.9375em;
+    }
+    
+    .hebergement-cards {
+        display: flex;
+        flex-direction: column;
+        gap: 0.9375em;
+    }
+    
+    .hebergement-cards a {
+        width: 100%;
+    }
+    
+    .hebergement-cards .card {
+        width: 100%;
+        height: 12.953125em; 
+    }
+        
+    /** Activités **/
+    
+    .activites {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+    }
+    
+    .activites-cards {
+        width: 100%;
+        flex-direction: column;
+        gap: 0.9375em;
+    }
+    
+    .activites-cards a {
+        width: 100%;
+    }
+    
+    
+    .activites-cards .card {
+        width: 100%;
+        height: 12.5em;
+    }
+    
+    .activites-cards img {
+        width: 100%;
+        height: 8.8125em;
+    }
+    
+    /*** Footer ***/
+    
+        footer {
+            width: 100%;
+            flex-direction: column;
+            padding: 1.875em;
+            gap: 3.125em;
+            box-sizing: border-box;
+        }
+    
+        .footer1, .footer2, .footer3
+         { width: 100%;
+        }
+    }

@@ -1,0 +1,54 @@
+/****** Footer ***********/
+
+footer {
+    display: flex;
+    background-color: #F2F2F2;
+    padding: 1.25em;
+}
+
+footer h3{
+    margin: 0em;
+}
+
+.footer1 {
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.9375em;
+}
+.footer1 a {
+    display: flex;
+    flex-direction: column;
+}
+.footer1 a:hover {
+    text-decoration: underline;
+}
+
+.footer2 {
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.9375em;
+}
+
+.footer2 a {
+    display: flex;
+    flex-direction: column;
+}
+.footer2 a:hover {
+    text-decoration: underline;
+}
+
+.footer3 {
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.9375em;
+}
+.footer3 a {
+    display: flex;
+    flex-direction: column;
+}
+.footer3 a:hover {
+    text-decoration: underline;
+}

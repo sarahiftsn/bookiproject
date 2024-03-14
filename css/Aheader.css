@@ -1,0 +1,35 @@
+/****** Header ***********/
+
+/*** logo et navigation ***/
+
+.logoetheader {
+    height: 4.9375em;
+    display: flex;
+    justify-content: space-between;
+}
+
+header img {
+    width: 3.818125em;
+    height: 1.1875em;
+    padding: 1.875em 0em 1.875em 0em;
+}
+
+nav {
+    width: 21.5em;
+    height: 2.1875em;
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+.bordure-nav2 {
+    display: flex;
+    margin-top: 0.125em;
+    padding-top: 1.125em;
+    padding-bottom: 1.25em;
+}
+.bordure-nav2:hover {
+    color: #0065FC;
+    border-top: solid 0.125em #0065FC;
+    position: relative; top: -0.125em;
+    }
