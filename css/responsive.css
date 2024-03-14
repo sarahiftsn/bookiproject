@@ -128,7 +128,7 @@
     /* titre et para */
     
         .titre-para {
-            height: 78px;
+            height: 79px;
             padding-bottom: 2%;
         }
     
@@ -166,7 +166,8 @@
     
         .boutons-filtre {
             flex-wrap: wrap;
-            gap: 0.0625em;
+            gap: 0.01em;
+            
         }
         
         .economique, .familial, .romantique, .pepites {
@@ -179,7 +180,8 @@
         }
     
         .boutons-filtre i {
-            padding-left: 4%;
+            padding-left: 2%;
+
         }
     
     /* Bulle Info */
@@ -187,8 +189,10 @@
         .info {
             height: 2.375em;
             flex-wrap: nowrap;
-            margin-top:10px;
-            margin-bottom:40px;
+            padding-top: 0px;
+            margin-top: -10px; 
+            margin-bottom:-20px; 
+            
         }
     
     /*** Hebergements And Populaires ***/
@@ -207,10 +211,10 @@
     .populaires {
         width: 100%;
         height: 35.5625em;
-        margin: 0;
         padding: 1.875em 1.25em;
         gap: 0.9375em;
         box-sizing: border-box;
+       
     }
     
     .populaires-cards {
