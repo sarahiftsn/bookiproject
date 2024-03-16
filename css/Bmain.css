@@ -13,6 +13,7 @@ Main {display: flex;
       
     
     }
+    
     /* Titres */
     
     .titre-para {
@@ -149,6 +150,9 @@ Main {display: flex;
         margin: 0em;
         padding-left:0.625em;
     }
+    .blue-i {
+        color:#0065FC; /* Définit la couleur du texte en bleu */
+      }
     
     
     /****** Hebergements And Populaires ***********/
