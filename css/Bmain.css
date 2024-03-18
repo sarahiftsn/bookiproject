@@ -100,7 +100,8 @@ Main {display: flex;
         display: flex;
         align-items: center;
         gap: 0.9375em;
-        margin-bottom: 0.313em;
+        margin-bottom: 0.113em;
+        margin-top:0.3em;
     }
     
     .filtres h2 {
@@ -141,8 +142,7 @@ Main {display: flex;
         display: flex;
         flex-wrap: wrap;
         align-items: center;
-        margin-top:0.625em;
-        margin-bottom:4.125em;
+        padding-bottom: 60em;
         
         
     }
@@ -151,9 +151,23 @@ Main {display: flex;
         margin: 0em;
         padding-left:0.625em;
     }
+    
     .blue-i {
-        color:#0065FC; /* Définit la couleur du texte en bleu */
-      }
+        color: #0065FC; /* Définit la couleur du texte en bleu */
+       
+    }
+    .information_icon {
+        font-size: 12px;
+        border-radius: 24px;
+        border: 1px solid #d9d9d9;
+        margin-right: 10px;
+        color: #0065fc;
+        width: 24px;
+        height: 24px;
+        box-sizing: border-box;
+        padding: 4px 0 0 9px;
+        }
+    
     
     
     /****** Hebergements And Populaires ***********/
@@ -162,7 +176,7 @@ Main {display: flex;
         display: flex;
         justify-content: space-between;
         gap: 0.9375em;
-        padding-top:1.875em;
+        padding-top:0.175em;
         
     }
     
