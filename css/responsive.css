@@ -72,6 +72,11 @@
             margin-top: 2em;
             
         }
+        .activites-cards .card-title {
+            padding-left: 0.25em;
+            
+        }
+        
     }
     
     /* Small devices (phones, less than 768px) */
