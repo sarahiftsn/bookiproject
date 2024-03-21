@@ -3,7 +3,9 @@
 footer {
     display: flex;
     background-color: #F2F2F2;
-    padding: 1.25em;
+    padding: 2.188em;
+    margin-top: -2.188em;
+    flex-wrap:wrap;
 }
 
 footer h3{
